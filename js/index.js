@@ -84,7 +84,11 @@ const createProject = (id, imgUrl, title, description, liveLink) => {
   console.log("we are here");
   // cardDescParagraph.innerHtml="This is myfirstproject";
   let text = document.createTextNode(description);
+  let cardLanguages=makeElement("p");
+  let languages=document.createTextNode("#HTML#CSS#JS#Bootstrap#JQuery");
+  cardLanguages.appendChild(languages)
   cardDescParagraph.appendChild(text);
+  cardDescParagraph.appendChild(cardLanguages);
   cardDesc.appendChild(cardDescParagraph);
   cardBody.appendChild(cardTitle);
   cardBody.appendChild(cardDesc);
