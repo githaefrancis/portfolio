@@ -161,7 +161,9 @@ font-style: italic;
   min-height: 24rem;
   margin-bottom: 2rem;
   justify-content: center;
-  background:#ffffff;
+  background-color: #cacaca;
+  box-shadow: 0.5px 0.5px #525868;
+  
 }
 
 #project .card .card-body, #project .card .card-body{
