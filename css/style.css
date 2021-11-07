@@ -113,3 +113,29 @@ h1.name {
   justify-content: center;
   background: transparent;
 }
+
+/* assign cards the same height */
+#projects{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#projects .card{
+  min-height: 24rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+#project .card .card-body, #project .card .card-body{
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-title {
+  text-align: center;
+}
+
+.card-desc p{
+  text-align: center;
+}
