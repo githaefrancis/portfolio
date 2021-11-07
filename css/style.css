@@ -103,9 +103,13 @@ h1.name {
 .description p{
   font-size: 1.3em;
 }
-
+.about-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
 .about-menu a{
-  background-color: #375193;
+  background-color: #525868;
 }
 
 .about{
@@ -177,7 +181,13 @@ font-style: italic;
 nav{
   background: transparent;
 }
+.about-menu{
+  justify-content: flex-start;
 
+}
+.about-menu a{
+  margin-right: 3em;
+}
 }
 
 /* media query for large screen */
