@@ -101,3 +101,15 @@ h1.name {
 .about{
   background:transparent;
 }
+
+/* style visit project website button */
+
+.card-footer a{
+  
+  width:10rem;
+}
+.card-footer{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
