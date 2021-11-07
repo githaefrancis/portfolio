@@ -93,3 +93,7 @@ h1.name {
 .description p{
   font-size: 1.3em;
 }
+
+.about-menu a{
+  background-color: #375193;
+}
