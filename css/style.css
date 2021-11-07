@@ -199,6 +199,9 @@ nav{
   margin-right: 3em;
 
 }
+.about .card{
+  display:none;
+}
 .about .card ul{
   text-align: center;
   list-style-type: none;
