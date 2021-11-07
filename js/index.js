@@ -1,5 +1,8 @@
 $(() => {
   $(".header").height($(window).height());
+  if($(window).scrollTop()>150){
+    $('nav').addClass('bg-dark');
+  }
 // make nav bar dark on scroll down
   $(document).scroll(()=>{
     const scrollLevel=$(window).scrollTop();

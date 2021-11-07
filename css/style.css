@@ -142,7 +142,9 @@ font-style: italic;
   justify-content: center;
   margin-top: 2rem;
 }
-
+#projects a{
+  background-color: #525868;
+}
 
 #projects .card{
   min-height: 24rem;
