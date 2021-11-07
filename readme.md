@@ -40,7 +40,7 @@ Open the index.html using the browser.
 
 ## Live link
 
-[Francis Githae Portfolio](https://githaefrancis.github.io/portfolio)
+[Francis Githae Portfolio](https://githaefrancis.github.io/portfolio/)
 
 # License
 
