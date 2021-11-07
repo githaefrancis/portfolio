@@ -97,3 +97,7 @@ h1.name {
 .about-menu a{
   background-color: #375193;
 }
+
+.about{
+  background:transparent;
+}
