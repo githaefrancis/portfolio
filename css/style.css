@@ -38,7 +38,7 @@ nav a {
   justify-content: center;
 }
 
-nav a:hover {
+nav a:hover:not(.navbar-brand) {
   background-color: #e5e4e2;
   z-index: 15;
   transform: scale(1.2);
@@ -67,4 +67,15 @@ height:32px;
 
 .navbar-collapse.show{
   justify-content: flex-start;
+}
+
+/* styling for profile picture */
+
+.profile-picture{
+  border-radius: 50%;
+  width:fit-content
+}
+.profile-picture img{
+  height:15rem;
+  border-radius: 20%;
 }
