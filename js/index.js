@@ -1,5 +1,16 @@
 $(() => {
   $(".header").height($(window).height());
+// make nav bar dark on scroll down
+  $(document).scroll(()=>{
+    const scrollLevel=$(window).scrollTop();
+    console.log($(window).scrollTop());
+    if(scrollLevel>150){
+      $('nav').addClass('bg-dark');
+    }
+    else{
+      $('nav').removeClass('bg-dark');
+    }
+  })
 });
 
 var projectsList=[];
