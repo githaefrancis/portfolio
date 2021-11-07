@@ -115,6 +115,10 @@ h1.name {
 .about{
   background:transparent;
 }
+.about .card{
+  background-color:#375193;
+  color:#ffffff;
+}
 
 /* style visit project website button */
 
@@ -132,6 +136,10 @@ h1.name {
   margin-top: 2rem;
   margin-bottom: 2rem;
   
+}
+
+.about .card ul{
+  text-align: left;
 }
 body h1{
 font-style: italic;
@@ -189,6 +197,15 @@ nav{
 }
 .about-menu a{
   margin-right: 3em;
+
+}
+.about .card ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+#interests-section ul{
+  text-align: center;
 }
 }
 

@@ -1,5 +1,6 @@
 $(() => {
   $(".header").height($(window).height());
+  //make nav bar dark on refresh
   if($(window).scrollTop()>150){
     $('nav').addClass('bg-dark');
   }
