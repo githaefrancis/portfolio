@@ -98,20 +98,33 @@ const createProject = (id, imgUrl, title, description, liveLink) => {
 // toggle about section content
 
 const menu = document.querySelector("#about-menu");
+const profileCard=document.querySelector("#profile-card");
+const educationCard=document.querySelector('#education-card');
+const interestscard=document.querySelector('#interests-card')
 menu.addEventListener("click", (event) => {
   const isBtn = event.target.nodeName === "BUTTON";
-
+  
   if (!isBtn) {
     return;
   } else {
     let btnId = event.target.id;
     if (btnId === "profile") {
       console.log("Iam profile");
+      profileCard.style="display:flex";
+      educationCard.style="display:none"
+      interestscard.style="display:none"
     } else if(btnId==="education"){
       console.log("I am education");
+      profileCard.style="display:none";
+      educationCard.style="display:flex"
+      interestscard.style="display:none"
+
     }
     else if(btnId==="interests"){
       console.log("I am interests");
+      profileCard.style="display:none";
+      educationCard.style="display:none"
+      interestscard.style="display:flex"
     }
     else{
       console.log("nothing");

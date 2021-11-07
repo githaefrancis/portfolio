@@ -119,6 +119,9 @@ h1.name {
   background-color:#375193;
   color:#ffffff;
 }
+.about .card:not(#profile-card){
+  display:none;
+}
 
 /* style visit project website button */
 
@@ -199,15 +202,13 @@ nav{
   margin-right: 3em;
 
 }
-.about .card{
-  display:none;
-}
+
 .about .card ul{
   text-align: center;
   list-style-type: none;
 }
 
-#interests-section ul{
+#interests-card ul{
   text-align: center;
 }
 }
