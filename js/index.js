@@ -3,7 +3,21 @@ $(() => {
 });
 
 // import a list of projects
-const projects = require('./projects.json');
+try{
+  const projects = require('./projects.json');
+
+}
+catch{
+
+  fetch('./js/projects.json')
+  .then(response=>{
+    return response.json;
+  })
+  .then(data=>{
+    const projects=data;
+  });
+}
+
 // function to create an element
 const makeElement = (element) => {
   return document.createElement(element);
@@ -40,3 +54,6 @@ const createProject = () => {
 };
 console.log("before");
 createProject();
+projects.forEach((project)=>{
+  console.log(project);}
+)
