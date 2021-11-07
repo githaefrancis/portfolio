@@ -31,7 +31,7 @@
   "description":
     "Team project for a conselling service website.",
   "languages": "html,css,javascript,bootstrap,jquery",
-  "github": "https://github.com/githaefrancis/ReachOut-Consel"
+  "github": "https://githaefrancis.github.io/reachout-consel/"
 },
 {
   "id": "petwolf",
@@ -40,7 +40,7 @@
   "description":
     "Blog for fictional pet wolf.",
   "languages": "html,css,javascript,jquery",
-  "github": "https://github.com/githaefrancis/petwolf"
+  "github": "https://githaefrancis.github.io/petwolf"
 }
 
 ]
