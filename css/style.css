@@ -3,6 +3,9 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* transition: 1s; */
 }
+body{
+  background-color: #e5e4e2;
+}
 /* header styling */
 .header {
   background-image: url("../img/hero.jpg");
@@ -55,7 +58,7 @@ nav a:hover:not(.navbar-brand) {
   height: 100px;
   margin: auto;
   position: relative;
-  top: 40%;
+  top: 30%;
   transform: translate(0, -50%);
   display: flex;
   flex-direction: column;
@@ -125,6 +128,7 @@ h1.name {
   min-height: 24rem;
   margin-bottom: 2rem;
   justify-content: center;
+  background:#ffffff;
 }
 
 #project .card .card-body, #project .card .card-body{
@@ -138,4 +142,28 @@ h1.name {
 
 .card-desc p{
   text-align: center;
+}
+.footer{
+  height:100px;
+  background-color: #e5e4e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer img{
+  height:24px;
+}
+/* media query for medium screens */
+@media only screen and (min-width:480px){
+.introduction{
+  top:40%;
+}
+
+}
+
+/* media query for large screen */
+@media only screen and (min-width:768px){
+
+
+
 }
