@@ -27,6 +27,11 @@ var projectsList=[];
 const setProjectList=(data)=>{
   console.log(data)
   projectsList=data;
+  console.log(projectsList);
+
+  projectsList.forEach(element => {
+    console.log(element);
+  });
 }
 
 
