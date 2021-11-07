@@ -55,8 +55,11 @@ nav a:hover:not(.navbar-brand) {
   height: 100px;
   margin: auto;
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .navbar-toggler-icon img {
   height: 32px;
@@ -71,9 +74,13 @@ nav a:hover:not(.navbar-brand) {
 .profile-picture {
   border-radius: 50%;
   width: fit-content;
+  display: inherit;
+  justify-content: center;
+  
 }
 .profile-picture img {
-  height: 15rem;
+  width: 15em;
+  
   border-radius: 20%;
 }
 
