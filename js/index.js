@@ -78,6 +78,7 @@ const createProject = (id, imgUrl, title, description, liveLink) => {
   let buttontext = document.createTextNode("Visit");
   addAttribute(footerButton, "href", liveLink);
   cardTitle.appendChild(titleText);
+  addAttribute(cardTitle,"class","font-weight-bold text-center");
   footerButton.appendChild(buttontext);
   cardFooter.appendChild(footerButton);
   console.log("we are here");
