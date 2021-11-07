@@ -1,0 +1,46 @@
+[{
+  "id": "photographyWebsite",
+  "name": "Photography Website",
+  "path": "img/photography.png",
+  "description":
+    "Photography website used to display photographs in a gallery grid.",
+  "languages": "[html, css]",
+  "github": "https://githaefrancis.github.io/week1-ip"
+},
+{
+  "id": "streetWiseFood",
+  "name": "Street Wise Food",
+  "path": "img/streetfood.png",
+  "description": "Restaurant website landing page.",
+  "languages": "[html, css]",
+  "github": "https://githaefrancis.github.io/street-food-website"
+},
+{
+  "id": "portfolio",
+  "name": "Portfolio",
+  "path": "img/reachoutconsel.png",
+  "description":
+    "Portfolio landing page that lists my professional accomplishments.",
+  "languages": "html, css",
+  "github": "https://githaefrancis.github.io/portfolio"
+},
+{
+  "id": "reachoutconsel",
+  "name": "ReachOut Consel",
+  "path": "img/reachoutconsel.png",
+  "description":
+    "Team project for a conselling service website.",
+  "languages": "html,css,javascript,bootstrap,jquery",
+  "github": "https://github.com/githaefrancis/ReachOut-Consel"
+},
+{
+  "id": "petwolf",
+  "name": "Pet Wolf",
+  "path": "img/reachoutconsel.png",
+  "description":
+    "Blog for fictional pet wolf.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://github.com/githaefrancis/ReachOut-Consel"
+}
+
+]

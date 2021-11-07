@@ -1,44 +1,9 @@
 $(() => {
   $(".header").height($(window).height());
 });
-const projects = [
-  {
-    id: "photographyWebsite",
-    name: "Photography Website",
-    path: "",
-    description:
-      "Photography website used to display photographs in a gallery grid.",
-    languages: [html, css],
-    github: ""
-  },
-  {
-    id: "streetWiseFood",
-    name: "Street Wise Food",
-    path: "",
-    description: "Restaurant website landing page.",
-    languages: [html, css],
-    github: ""
-  },
-  {
-    id: "portfolio",
-    name: "Portfolio",
-    path: "",
-    description:
-      "Portfolio landing page that lists my professional accomplishments.",
-    languages: [html, css],
-    github: "",
-  },
-  {
-    id: "reachoutconsel",
-    name: "ReachOut Consel",
-    path: "",
-    description:
-      "Team project for a conselling service website.",
-    languages: [html, css],
-    github: "",
-  }
 
-];
+// import a list of projects
+const projects = require('./projects.json');
 // function to create an element
 const makeElement = (element) => {
   return document.createElement(element);
