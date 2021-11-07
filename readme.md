@@ -6,6 +6,9 @@
 | Project Setup          | [Project](#Project-Setup)                     |
 | Tools and Technologies | [Tools Technologies](#Tools-and-Technologies) |
 | Author                 | [Author](#Author)                             |
+| Design                 | [Design](#Design)                             |
+| Live link              | [Live link](#Livelink)                        |
+| License                | [Author](#License)                            |
 
 ## Description
 
@@ -21,8 +24,26 @@ Open the index.html using the browser.
 
 ## Technologies and tools
 
+-HTML
+-CSS
+-Javascript
 -Bootstrap v4.6.1
+-JQuery v3.6.0
 
 ## Author
 
 <p>Francis Githae</p>
+
+## Design
+
+[Design](https://www.figma.com/file/jKLhYe6pB12GfvblLeTTwZ/portfolio?node-id=0%3A1)
+
+## Live link
+
+[Francis Githae Portfolio](https://githaefrancis.github.io/portfolio)
+
+# License
+
+<p>This project is under the MIT License [click here for more information](LICENSE)</p>
+
+&copy; 2021 Francis Githae | Frank Effect
