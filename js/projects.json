@@ -18,7 +18,7 @@
 {
   "id": "portfolio",
   "name": "Portfolio",
-  "path": "img/reachoutconsel.png",
+  "path": "img/portfolio.png",
   "description":
     "Portfolio landing page that lists my professional accomplishments.",
   "languages": "html, css",
@@ -36,11 +36,11 @@
 {
   "id": "petwolf",
   "name": "Pet Wolf",
-  "path": "img/reachoutconsel.png",
+  "path": "img/petwolf.png",
   "description":
     "Blog for fictional pet wolf.",
   "languages": "html,css,javascript,jquery",
-  "github": "https://github.com/githaefrancis/ReachOut-Consel"
+  "github": "https://github.com/githaefrancis/petwolf"
 }
 
 ]
