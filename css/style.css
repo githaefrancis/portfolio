@@ -12,6 +12,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  height:100vh !important;
 }
 .overlay {
   position: absolute;
@@ -27,6 +28,9 @@ body{
 }
 
 /* navbar styling */
+nav{
+  background: black;
+}
 nav a {
   color: #ffffff;
   font-size: 22px;
@@ -117,10 +121,19 @@ h1.name {
   background: transparent;
 }
 
+#about-section{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+body h1{
+font-style: italic;
+}
 /* assign cards the same height */
 #projects{
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 
@@ -157,6 +170,9 @@ h1.name {
 @media only screen and (min-width:480px){
 .introduction{
   top:40%;
+}
+nav{
+  background: transparent;
 }
 
 }
