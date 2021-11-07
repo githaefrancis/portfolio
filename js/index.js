@@ -1,22 +1,34 @@
+// const { data } = require('jquery');
+
 $(() => {
   $(".header").height($(window).height());
 });
 
+var projectsList=[];
+
 // import a list of projects
-try{
-  const projects = require('./projects.json');
+// const projectGet=()=>{
+  try{
+    fetch('js/projects.json')
+    .then(response=>response.json())
+    .then(data=>setProjectList(data))
+    }  
+    
+  
+  catch{
+  
+    projectsList = require('./projects.json');
+  
+    }
+    
 
-}
-catch{
+// }
 
-  fetch('./js/projects.json')
-  .then(response=>{
-    return response.json;
-  })
-  .then(data=>{
-    const projects=data;
-  });
+const setProjectList=(data)=>{
+  console.log(data)
+  projectsList=data;
 }
+
 
 // function to create an element
 const makeElement = (element) => {
@@ -54,6 +66,11 @@ const createProject = () => {
 };
 console.log("before");
 createProject();
-projects.forEach((project)=>{
-  console.log(project);}
-)
+// console.log(projectsList);
+// projectGet();
+console.log("finally");
+// projects.forEach((project)=>{
+//   console.log(project);
+//   console.log(help);
+// }
+// );
