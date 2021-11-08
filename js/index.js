@@ -106,19 +106,16 @@ menu.addEventListener("click", (event) => {
   } else {
     let btnId = event.target.id;
     if (btnId === "profile") {
-      console.log("Iam profile");
       profileCard.style="display:flex";
       educationCard.style="display:none"
       interestscard.style="display:none"
     } else if(btnId==="education"){
-      console.log("I am education");
       profileCard.style="display:none";
       educationCard.style="display:flex"
       interestscard.style="display:none"
 
     }
     else if(btnId==="interests"){
-      console.log("I am interests");
       profileCard.style="display:none";
       educationCard.style="display:none"
       interestscard.style="display:flex"
