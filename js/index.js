@@ -8,7 +8,6 @@ $(() => {
   // make nav bar dark on scroll down
   $(document).scroll(() => {
     const scrollLevel = $(window).scrollTop();
-    console.log($(window).scrollTop());
     if (scrollLevel > 150) {
       $("nav").addClass("bg-dark");
     } else {
@@ -30,13 +29,8 @@ try {
 }
 
 const setProjectList = (data) => {
-  console.log(data);
   projectsList = data;
-  console.log(projectsList);
-  console.log(projectsList.length);
   projectsList.forEach((element) => {
-    console.log(4);
-    console.log(element);
     let id = element["id"];
     let liveLink = element["github"];
     let img = element["path"];
@@ -81,8 +75,6 @@ const createProject = (id, imgUrl, title, description, liveLink) => {
   addAttribute(cardTitle,"class","font-weight-bold text-center");
   footerButton.appendChild(buttontext);
   cardFooter.appendChild(footerButton);
-  console.log("we are here");
-  // cardDescParagraph.innerHtml="This is myfirstproject";
   let text = document.createTextNode(description);
   let cardLanguages=makeElement("p");
   let languages=document.createTextNode("#HTML#CSS#JS#Bootstrap#JQuery");
