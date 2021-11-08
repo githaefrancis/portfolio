@@ -24,11 +24,11 @@ Open the index.html using the browser.
 
 ## Technologies and tools
 
--HTML
--CSS
--Javascript
--Bootstrap v4.6.1
--JQuery v3.6.0
+- HTML
+- CSS
+- Javascript
+- Bootstrap v4.6.1
+- JQuery v3.6.0
 
 ## Author
 
