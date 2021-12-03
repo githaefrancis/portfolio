@@ -41,6 +41,50 @@
     "Blog for fictional pet wolf.",
   "languages": "html,css,javascript,jquery",
   "github": "https://githaefrancis.github.io/petwolf"
+},
+{
+  "id": "delanistudio",
+  "name": "Delani Studio",
+  "path": "img/delanistudio.png",
+  "description":
+    "Landing page for a design company.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://githaefrancis.github.io/delani-studio"
+},
+{
+  "id": "pizzarana",
+  "name": "Pizzarana",
+  "path": "img/pizzarana.png",
+  "description":
+    "Pizza ordering application.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://githaefrancis.github.io/pizzarana"
+},
+{
+  "id": "expensetracker",
+  "name": "Expense Tracker",
+  "path": "img/expensetracker.png",
+  "description":
+    "Application to keep track of expenditure.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://githaefrancis.github.io/expense-tracker"
+},
+{
+  "id": "akannamegenerator",
+  "name": "Akan Name Generator",
+  "path": "img/akanamegenerator.png",
+  "description":
+    "Application to look up your Akan name by providing your birthday.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://githaefrancis.github.io/akan-name-generator"
+},
+{
+  "id": "chomazone",
+  "name": "Choma Zone",
+  "path": "img/chomazone.png",
+  "description":
+    "Web application that list the best Nyama choma joints.",
+  "languages": "html,css,javascript,jquery",
+  "github": "https://githaefrancis.github.io/chomazone"
 }
-
 ]

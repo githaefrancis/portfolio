@@ -5,6 +5,14 @@ $(() => {
     $("nav").addClass("bg-dark");
   }
 
+  //leave margin when directed to a section
+  $("#about-link").click(()=>{
+    $(window).scrollTop( 600 );
+    console.log($(window).scrollTop());
+    console.log("clicked link");
+  })
+
+
   // make nav bar dark on scroll down
   $(document).scroll(() => {
     const scrollLevel = $(window).scrollTop();
