@@ -86,5 +86,14 @@
     "Web application that list the best Nyama choma joints.",
   "languages": "html,css,javascript,jquery",
   "github": "https://githaefrancis.github.io/chomazone"
+},
+{
+  "id": "quotes",
+  "name": "Quotes App",
+  "path": "img/quotes.png",
+  "description":
+    "Lists Quotes and allows the user to add more.You can Upvote and downvote a quote",
+  "languages": "html,css,angular,typescript,bootstrap,jquery",
+  "github": "https://githaefrancis.github.io/quotes"
 }
 ]
