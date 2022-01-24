@@ -38,6 +38,7 @@ try {
 
 const setProjectList = (data) => {
   projectsList = data;
+  projectsList.reverse()
   projectsList.forEach((element) => {
     let id = element["id"];
     let liveLink = element["github"];
