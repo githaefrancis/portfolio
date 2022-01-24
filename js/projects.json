@@ -4,7 +4,7 @@
   "path": "img/photography.png",
   "description":
     "Photography website used to display photographs in a gallery grid.",
-  "languages": "[html, css]",
+  "languages": "html, css",
   "github": "https://githaefrancis.github.io/week1-ip"
 },
 {
@@ -12,7 +12,7 @@
   "name": "Street Wise Food",
   "path": "img/streetfood.png",
   "description": "Restaurant website landing page.",
-  "languages": "[html, css]",
+  "languages": "html, css",
   "github": "https://githaefrancis.github.io/street-food-website"
 },
 {

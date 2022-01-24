@@ -157,11 +157,18 @@ font-style: italic;
 }
 
 #projects .card{
-  min-height: 25rem;
+  height: 25rem;
   margin-bottom: 2rem;
   justify-content: center;
   background-color: #cacaca;
   box-shadow: 0.5px 0.5px #525868;
+  
+}
+
+#projects .card:hover{
+
+  transform: scale(1.2);
+  z-index: 3;
   
 }
 

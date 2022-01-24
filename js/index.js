@@ -47,7 +47,7 @@ const setProjectList = (data) => {
     let description = element["description"];
     let languages = element["languages"];
     if (id !== null) {
-      createProject(id, img, projectName, description, liveLink);
+      createProject(id, img, projectName, description, liveLink,languages);
     }
   });
 };
@@ -63,7 +63,7 @@ const addAttribute = (element, attribute, value) => {
 };
 
 //create a project card
-const createProject = (id, imgUrl, title, description, liveLink) => {
+const createProject = (id, imgUrl, title, description, liveLink,languagesList) => {
   let columnDiv = makeElement("div");
   addAttribute(columnDiv, "class", "col-12 col-lg-4 col-md-4 col-sm-12");
   let card = addAttribute(makeElement("div"), "class", "card");
@@ -86,7 +86,7 @@ const createProject = (id, imgUrl, title, description, liveLink) => {
   cardFooter.appendChild(footerButton);
   let text = document.createTextNode(description);
   let cardLanguages=makeElement("p");
-  let languages=document.createTextNode("#HTML#CSS#JS#Bootstrap#JQuery");
+  let languages=document.createTextNode(languagesList);
   cardLanguages.appendChild(languages)
   cardDescParagraph.appendChild(text);
   cardDescParagraph.appendChild(cardLanguages);
