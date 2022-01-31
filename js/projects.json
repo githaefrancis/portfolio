@@ -105,5 +105,14 @@
   "languages": "html,css,angular,typescript,bootstrap",
   "github": "https://githaefrancis.github.io/gitmine/"
 }
-
+,
+{
+  "id": "news-point",
+  "name": "News Point",
+  "path": "img/news-point.png",
+  "description":
+    "View News from the News API",
+  "languages": "html,css,Flask,bootstrap",
+  "github": "https://news-point.herokuapp.com/"
+}
 ]
