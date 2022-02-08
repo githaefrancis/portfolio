@@ -114,5 +114,14 @@
     "View News from the News API",
   "languages": "html,css,Flask,bootstrap",
   "github": "https://news-point.herokuapp.com/"
+},
+{
+  "id": "pitch-pitcher",
+  "name": "Pitch Pitcher",
+  "path": "img/pitcher.png",
+  "description":
+    "Create Pitches per category",
+  "languages": "html,css,Flask,bootstrap,Python",
+  "github": "https://pitch-pitcher.herokuapp.com/"
 }
 ]
