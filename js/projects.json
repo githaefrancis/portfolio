@@ -123,5 +123,23 @@
     "Create Pitches per category",
   "languages": "html,css,Flask,bootstrap,Python",
   "github": "https://pitch-pitcher.herokuapp.com/"
+},
+{
+  "id": "fluent-exchange",
+  "name": "Fluent Exchange",
+  "path": "img/fluentexchange.png",
+  "description":
+    "Create blog posts",
+  "languages": "html,css,Flask,bootstrap,Python",
+  "github": "https://fluent-exchange.herokuapp.com/"
+},
+{
+  "id": "uwazi-poll",
+  "name": "Uwazi Poll",
+  "path": "img/uwazipoll.png",
+  "description":
+    "School election system",
+  "languages": "html,css,Flask,bootstrap,Python",
+  "github": "https://uwazi-poll.herokuapp.com/"
 }
 ]
