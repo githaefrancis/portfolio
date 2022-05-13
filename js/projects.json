@@ -104,6 +104,24 @@
     "Search for users and repos on github",
   "languages": "html,css,angular,typescript,bootstrap",
   "github": "https://githaefrancis.github.io/gitmine/"
+},
+{
+  "id": "prism-gallery",
+  "name": "Prism Gallery",
+  "path": "img/prism-gallery.png",
+  "description":
+    "Post and view photos",
+  "languages": "html,css,django",
+  "github": "https://prism-gallery.herokuapp.com/"
+},
+{
+  "id": "invento-app",
+  "name": "Invento App",
+  "path": "img/invento-app.png",
+  "description":
+    "Manage equipment inventory",
+  "languages": "html,css,django",
+  "github": "https://githaefrancis.github.io/invento-frontend/"
 }
 ,
 {
