@@ -149,7 +149,7 @@
   "description":
     "Create blog posts",
   "languages": "html,css,Flask,bootstrap,Python",
-  "github": "https://fluent-exchange.herokuapp.com/"
+  "github": "https://web-production-627d.up.railway.app/"
 },
 {
   "id": "uwazi-poll",
